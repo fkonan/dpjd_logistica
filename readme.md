@@ -1,3 +1,2 @@
 Bienvenido a logistica dpjd
-##Especificaciones
-Php7
+Falta la carpeta config
