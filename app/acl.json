@@ -1,0 +1,31 @@
+{
+  "Guest" : {
+    "denied" : {},
+    "Home" : ["*"],
+    "Users" : ["login"],
+    "Home" : ["*"],
+    "Register" : ["login", "register"],
+    "Restricted" : ["*"]
+  },
+  "LoggedIn" : {
+    "Home":["*"],
+    "denied" : {
+      "Users" : ["login"]
+    },
+    "Users" : ["logout"]
+  },
+
+  "OPERADOR":{
+    "denied":{},
+    "Home":["*"],
+    "DatosGenerales":["*"]
+  },
+
+  "ADMIN":{
+    "denied":{},
+    "Home":["*"],
+    "LogisticaPdaAuxiliares":["*"],
+    "LogisticaPdaPicking":["*"],
+    "MargenesProd":["*"]
+  }
+}
