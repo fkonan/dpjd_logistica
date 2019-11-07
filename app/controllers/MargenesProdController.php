@@ -15,7 +15,6 @@ class MargenesProdController extends Controller {
 	}
 
 	public function indexAction(){
-		//$datos = MargenesProd::listarMargenes();
 		$datos = MargenesProd::listarMargenes2();
 		$this->view->datos = $datos;
 
